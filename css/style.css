@@ -7,6 +7,10 @@ body {
   font-size: 10px;
 }
 
+img {
+  width: 375px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -15,20 +19,50 @@ ul {
 
 .container {
   box-sizing: border-box;
-  background-color: rgba(29, 160, 254, .5);
+  background-color: #a4d9fe;
   display: block;
   font-family: sans-serif;
-  margin: 5%;
+  margin: 5% auto;
   width: 375px;
-  padding-bottom: .1%;
+}
+
+.search-box {
+  background-color: #1da0fe;
+}
+
+input {
+  width: 90%;
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 250%;
 }
 
 h1 {
-  font-size:250%;
-  font-weight: 900;
+  font-size: 125%;
+  color: #fff;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.star {
+  width: 5%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+h2 {
+  font-size: 200%;
+  font-weight: 600;
   padding-left: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.refresh {
+  width: 5%;
 }
 
 li {
@@ -36,7 +70,7 @@ li {
   box-sizing: border-box;
   background-color: #fff;
   display: block;
-  margin-bottom: 1%;
+  margin-bottom: 1px;
   padding: 4%;
 }
 
@@ -61,7 +95,7 @@ li {
 }
 
 .dir-freq {
-  color: grey;
+  color: #808080;
   display: block;
   font-size: 75%;
 }
@@ -75,12 +109,12 @@ li {
 
 .on-time {
   display: block;
-  color: green;
+  color: #008b00;
   font-size: 75%;
 }
 
 .delayed {
-  color: red;
+  color: #ff0000;
   display: block;
   font-size: 75%;
 }
