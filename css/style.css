@@ -102,13 +102,13 @@ li {
 }
 
 .on-time {
-  color: #008b00;
+  color: #5BAE18;
   display: block;
   font-size: 75%;
 }
 
 .delayed {
-  color: #ff0000;
+  color: #E02020;
   display: block;
   font-size: 75%;
 }
